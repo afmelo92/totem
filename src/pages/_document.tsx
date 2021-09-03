@@ -15,6 +15,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap"
             rel="stylesheet"
           />
+          <meta name="description" content="Order your food by yourself" />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

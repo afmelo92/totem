@@ -2,7 +2,9 @@
 
 exports[`<Main /> should render heading 1`] = `
 <main>
-  <h1>
+  <h1
+    class="text-9xl font-bold"
+  >
     Totem App
   </h1>
 </main>

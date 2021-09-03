@@ -10,6 +10,10 @@ describe('<Main />', () => {
       screen.getByRole('heading', { name: /totem app/i })
     ).toBeInTheDocument()
 
+    expect(screen.getByRole('heading', { name: /totem app/i })).toHaveClass(
+      'text-9xl font-bold'
+    )
+
     expect(container.firstChild).toMatchSnapshot()
   })
 })
