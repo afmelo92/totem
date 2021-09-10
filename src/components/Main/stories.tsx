@@ -1,7 +1,7 @@
 import { Meta } from '@storybook/react'
 import React from 'react'
 
-import Main from '.'
+import Main, { MainProps } from '.'
 
 export default {
   component: Main,
@@ -9,4 +9,4 @@ export default {
 } as Meta
 
 // eslint-disable-next-line @typescript-eslint/ban-types
-export const Primary: React.VFC<{}> = () => <Main />
+export const Primary: React.VFC<MainProps> = args => <Main {...args} />
