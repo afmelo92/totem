@@ -1,14 +1,10 @@
 import React from 'react'
 
-export interface MainProps {
-  title: string
-}
-
-const Main: React.FC<MainProps> = ({ title = 'Totem App' }) => {
+const Main: React.FC = () => {
   return (
-    <main>
-      <h1 className="text-9xl font-bold">{title}</h1>
-    </main>
+    <div className="container">
+      <h1 className="text-9xl font-bold text-center">Totem App</h1>
+    </div>
   )
 }
 
